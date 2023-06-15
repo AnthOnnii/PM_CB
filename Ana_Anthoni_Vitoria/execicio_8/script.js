@@ -10,7 +10,18 @@ function capturarPrimeiroNumeroInteiro() {
 
 function capturarSegundoNumeroInteiro() {
  const segundo_numero_inteiro = Number(document.getElementById("segundo_numero_inteiro").value); 
- return
+ return segundo_numero_inteiro;
+}
+
+function capturarTerceiroNumeroInteiro() {
+  const terceiro_numero_inteiro = Number(document.getElementById("terceiro_numero_inteiro").value); 
+  return terceiro_numero_inteiro;
+ }
+ function capturarQuartoNumeroInteiro() {
+  const quarto_numero_inteiro = Number(document.getElementById("quarto_numero_inteiro").value); 
+  return quarto_numero_inteiro;
+ }
+
 
 function somar() {
   let primeiro_numero_inteiro = capturarPrimeiroNumeroInteiro();
